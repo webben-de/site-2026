@@ -17,9 +17,21 @@ export default defineConfig(({ mode }) => ({
       ssr: false,
       static: true,
       prerender: {
-        routes: [],
+        routes: ['/', '/imprint', '/privacy'],
       },
     }),
-    tailwindcss()
+    tailwindcss(),
   ],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: ['src/test-setup.ts'],
+    include: ['src/**/*.spec.ts'],
+    reporters: ['verbose'],
+    server: {
+      deps: {
+        inline: ['@analogjs/vitest-angular', '@angular', '@jsverse/transloco'],
+      },
+    },
+  },
 }));

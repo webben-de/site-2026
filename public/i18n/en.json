@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "ai": "AI Workflow",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Benjamin Geißler",
+    "title": "Senior Angular & DevOps Engineer",
+    "tagline": "10 years experience. Modern. AI-accelerated.",
+    "location": "Magdeburg, Germany",
+    "cta_work": "See my work",
+    "cta_contact": "Get in touch",
+    "terminal_line1": "$ ng new webben-2026 --standalone --ssr",
+    "terminal_line2": "$ docker compose up -d",
+    "terminal_line3": "$ copilot: suggest improvements...",
+    "terminal_line4": "✓ Deployed to production"
+  },
+  "about": {
+    "label": "About",
+    "title": "Senior Developer from Magdeburg",
+    "body1": "Since 2011 I've combined professional software development in large enterprises with a passion for building digital products. Over more than a decade I've followed Angular from its early days to the modern Signals era.",
+    "body2": "Beyond frontend expertise I bring deep DevOps knowledge: container orchestration, CI/CD pipelines, and cloud infrastructure. Today I accelerate my workflow through targeted use of AI tools.",
+    "years_label": "Years experience",
+    "projects_label": "Projects",
+    "companies_label": "Companies"
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "My technical spectrum",
+    "frontend": "Frontend",
+    "devops": "DevOps & Cloud",
+    "ai_tools": "AI & Tools"
+  },
+  "ai": {
+    "label": "AI Workflow",
+    "title": "How I integrate AI into my daily work",
+    "subtitle": "AI is not a buzzword — it's my daily accelerator.",
+    "copilot_title": "GitHub Copilot",
+    "copilot_desc": "Code completion, inline chat and refactoring right in the editor. Reduces boilerplate and speeds up exploring new Angular APIs.",
+    "claude_title": "Claude / Cursor",
+    "claude_desc": "Architecture decisions, code reviews and complex refactorings. Ideal for large context windows and structured outputs.",
+    "cicd_title": "AI in CI/CD",
+    "cicd_desc": "Automated PR summaries, test generation and dependency analysis directly in the pipeline with GitHub Actions.",
+    "review_title": "AI Code Review",
+    "review_desc": "Proactive security and performance checks through AI-powered static analysis — before the first human review."
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Selected work",
+    "view": "View",
+    "source": "Code"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk",
+    "subtitle": "I'm open to interesting projects, consulting, or simply a professional conversation.",
+    "email_cta": "Send email"
+  },
+  "footer": {
+    "made_with": "Built with",
+    "and": "and",
+    "rights": "All rights reserved.",
+    "imprint": "Imprint",
+    "privacy": "Privacy"
+  }
+}

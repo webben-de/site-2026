@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "skills": "Skills",
+    "ai": "AI Workflow",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "name": "Benjamin Geißler",
+    "title": "Senior Angular & DevOps Engineer",
+    "tagline": "10 Jahre Erfahrung. Modern. AI-beschleunigt.",
+    "location": "Magdeburg, Deutschland",
+    "cta_work": "Meine Arbeit",
+    "cta_contact": "Kontakt aufnehmen",
+    "terminal_line1": "$ ng new webben-2026 --standalone --ssr",
+    "terminal_line2": "$ docker compose up -d",
+    "terminal_line3": "$ copilot: suggest improvements...",
+    "terminal_line4": "✓ Deployed to production"
+  },
+  "about": {
+    "label": "Über mich",
+    "title": "Senior Developer aus Magdeburg",
+    "body1": "Seit 2011 vereine ich professionelle Softwareentwicklung in Großunternehmen mit der Leidenschaft für das Erschaffen digitaler Produkte. In über einem Jahrzehnt habe ich Angular von den Anfängen bis zur modernen Signals-Ära begleitet.",
+    "body2": "Neben meiner Expertise im Frontend-Bereich bringe ich tiefes DevOps-Wissen mit: Von Container-Orchestrierung über CI/CD-Pipelines bis zu Cloud-Infrastrukturen. Heute beschleunige ich meinen Workflow durch gezielten Einsatz von KI-Tools.",
+    "years_label": "Jahre Erfahrung",
+    "projects_label": "Projekte",
+    "companies_label": "Unternehmen"
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "Mein technisches Spektrum",
+    "frontend": "Frontend",
+    "devops": "DevOps & Cloud",
+    "ai_tools": "AI & Tools"
+  },
+  "ai": {
+    "label": "AI Workflow",
+    "title": "Wie ich KI in meinen Alltag integriere",
+    "subtitle": "KI ist kein Buzzword – es ist mein täglicher Beschleuniger.",
+    "copilot_title": "GitHub Copilot",
+    "copilot_desc": "Code-Completion, Inline-Chat und Refactoring direkt im Editor. Reduziert Boilerplate und beschleunigt die Exploration neuer Angular-APIs.",
+    "claude_title": "Claude / Cursor",
+    "claude_desc": "Architekturentscheidungen, Code-Reviews und komplexe Refactorings. Ideal für große Kontextfenster und strukturierte Ausgaben.",
+    "cicd_title": "AI in CI/CD",
+    "cicd_desc": "Automatische PR-Zusammenfassungen, Test-Generierung und Dependency-Analyse direkt in der Pipeline mit GitHub Actions.",
+    "review_title": "AI Code Review",
+    "review_desc": "Proaktive Sicherheits- und Performance-Checks durch KI-gestützte statische Analyse – vor dem ersten menschlichen Review."
+  },
+  "projects": {
+    "label": "Projekte",
+    "title": "Ausgewählte Arbeiten",
+    "view": "Ansehen",
+    "source": "Code"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Lass uns reden",
+    "subtitle": "Ich bin offen für spannende Projekte, Beratung oder einfach einen fachlichen Austausch.",
+    "email_cta": "E-Mail schreiben"
+  },
+  "footer": {
+    "made_with": "Erstellt mit",
+    "and": "und",
+    "rights": "Alle Rechte vorbehalten.",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  }
+}

@@ -1,0 +1,15 @@
+services:
+  webben:
+    image: ghcr.io/${GITHUB_REPOSITORY:-benjamingeissler/webben-2026}:${IMAGE_TAG:-latest}
+    container_name: webben-2026
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:80"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"
