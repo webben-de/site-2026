@@ -19,12 +19,16 @@ COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 RUN addgroup -S webben && adduser -S webben -G webben \
   && chown -R webben:webben /usr/share/nginx/html \
   && chown -R webben:webben /var/cache/nginx \
+  && chown -R webben:webben /var/log/nginx \
   && touch /var/run/nginx.pid \
-  && chown webben:webben /var/run/nginx.pid
+  && chown webben:webben /var/run/nginx.pid \
+  && chown -R webben:webben /etc/nginx/conf.d
+
+USER webben
 
 EXPOSE 80
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
-  CMD wget --no-verbose --tries=1 --spider http://localhost/ || exit 1
+  CMD wget --no-verbose --tries=1 --spider http://127.0.0.1/health || exit 1
 
 CMD ["nginx", "-g", "daemon off;"]
