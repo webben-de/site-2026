@@ -136,5 +136,17 @@ export class SkillsComponent {
         { name: 'LLM API Integration', icon: this.checkIcon },
       ],
     },
+    {
+      titleKey: 'skills.social_media',
+      accentColor: '#f43f5e',
+      skills: [
+        { name: 'Social Media Management', icon: this.checkIcon },
+        { name: 'Canva Editing', icon: this.checkIcon },
+        { name: 'Content Creation', icon: this.checkIcon },
+        { name: 'Instagram / Facebook', icon: this.checkIcon },
+        { name: 'Scheduling & Analytics', icon: this.checkIcon },
+        { name: 'Visual Branding', icon: this.checkIcon },
+      ],
+    },
   ];
 }
